@@ -13,6 +13,7 @@ BuildRequires:	cmake(KF5Plasma) >= 5.0.0
 BuildRequires:	cmake(Qt5Core) >= 5.4.0
 BuildRequires:	cmake(Qt5Quick)
 BuildRequires:	pkgconfig(libqalculate) >= 0.9.8
+BuildRequires:	readline-devel
 
 %description
 A calculator plasma widget which uses the Qalculate! library to provide lots
