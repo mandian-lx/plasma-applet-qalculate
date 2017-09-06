@@ -6,7 +6,7 @@ License:	GPLv2+ and CC0 and LGPLv2.1+
 Group:		Graphical desktop/KDE
 Url:		https://store.kde.org/p/1155946/
 Source0:	https://github.com/dschopf/qalculate/archive/v%{version}/%{name}-%{version}.tar.gz
-
+Patch0:		%{name}-0.3.1-port-to-libqualculate-2.0.0-patch
 BuildRequires:	cmake >= 2.8.12
 BuildRequires:	cmake(ECM) >= 5.4.0
 BuildRequires:	cmake(KF5Plasma) >= 5.0.0
@@ -31,6 +31,7 @@ of features like unit calculation or currency conversion.
 
 %prep
 %setup -q -n qalculate-%{version}
+%apply_patches
 
 %build
 %cmake_kde5
