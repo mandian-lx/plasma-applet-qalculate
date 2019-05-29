@@ -1,4 +1,5 @@
 removed_sources:
   plasma-applet-qalculate-0.3.1.tar.gz: d0f87075c4eb6d28cb662c73d668851c869ce65b
-sources:
   plasma-applet-qalculate-0.4.0.tar.gz: 534932b9bded3f1583d132edb80402c1a1b23917
+sources:
+  plasma-applet-qalculate-0.6.tar.gz: 428f3d7e09334638921158675208a0a50d900973
